@@ -3,7 +3,8 @@
 
 int _putchar(char c);
 int _printf(const char *format, ...);
-
+char *print_c(va_list list);
 
 
 #endif  /* _C_PRINTF_  */
+
