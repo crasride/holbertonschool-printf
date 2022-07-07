@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_c - returns char as string
+ * print_c - returns a character as a string
  * @list: char
- * Return: String verion of char
+ * Return: String version of a char
  */
 char *print_c(va_list list)
 {
