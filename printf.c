@@ -6,8 +6,7 @@
  */
 int _printf(const char *format, ...)
 {
-int printed_chars;	printf_t l_list[] =
-{
+	int printed_chars;	printf_t l_list[] = {
 		{"c", print_c},
 		{"s", print_s},
 		{"%", print_p},
