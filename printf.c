@@ -13,8 +13,8 @@ static int (*check(const char *format))(va_list)
 	{"c", print_c},
 	{"s", print_s},
 	{"%", print_p},
-/**	{"d", print_i},
-	{"i", print_i}, */
+/* {"d", print_i}, */
+/* {"i", print_i}, */
 	{NULL, NULL}
 
 	};
