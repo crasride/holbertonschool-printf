@@ -13,9 +13,9 @@ static int (*check(const char *format))(va_list)
 	{"c", print_c},
 	{"s", print_s},
 	{"%", print_p},
-/*	{"d", print_i},
-	{"i", print_i},*/
-	{NULL, NULL} 
+/* {"d", print_i}, */
+/* {"i", print_i}, */
+	{NULL, NULL}
 
 	};
 	for (i = 0; p[i].t != NULL; i++)
