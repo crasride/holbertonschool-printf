@@ -1,23 +1,18 @@
 #include "main.h"
+
 /**
-* check - function
-* @format: string to print
-* Description: function to print specifiers c, s, %, d, and i
-* Return: printed chars
+* check - Function
+* @format: Format Specifier
+* Description: Checks Valid Format Specifier
+* Return: Pointer Valid or NULL
 */
 static int (*check(const char *format))(va_list)
 {
 	unsigned int i;
 
-	print_t p[] = {
-	{"c", print_c},
-	{"s", print_s},
-	{"%", print_p},
-/*	{"d", print_i},
-	{"i", print_i},*/
-	{NULL, NULL} 
+print_t p[] = { {"c", print_c}, {"s", print_s}, {"p", print_p}, {"d", print_d},
+	{"i", print_i}, {NULL, NULL} };
 
-	};
 	for (i = 0; p[i].t != NULL; i++)
 	{
 		if (*(p[i].t) == *format)
@@ -28,10 +23,10 @@ static int (*check(const char *format))(va_list)
 	return (p[i].f);
 }
 /**
-* _printf - prints anything
-* @format: list of argument types passed to the function
-*
-* Return: number of characters printed
+* _printf - Prints Anything
+* @format: List Argument Types Passed to Tunction
+* Descripction: Output Accord to Format
+* Return: Length Characters Printed
 */
 int _printf(const char *format, ...)
 {
