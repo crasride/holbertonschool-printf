@@ -1,10 +1,10 @@
 #include "main.h"
-#include <stdlib.h>
 
 /**
-* print_c - prints a char
-* @c: char to print
-* Return: always 1
+* print_c - Functions
+* @c: Char 
+* Description: Print Char
+* Return: 1
 */
 int print_c(va_list c)
 {
@@ -15,33 +15,34 @@ int print_c(va_list c)
 }
 
 /**
-* print_s - prints a string
-* @s: string
-* Return: number of chars printed
+* print_s - Function
+* @s: String
+* Description: Prints String
+* Return: Number Chars Printed
 */
 int print_s(va_list s)
 {
-	int i;
+	int count;
 	char *str = va_arg(s, char *);
 
-	if (str == NULL)
+	if (!str)
 		str = "(null)";
-	for (i = 0; str[i]; i++)
+	for (count = 0; str[count]; count++)
 	{
-		_putchar(str[i]);
+		_putchar(str[count]);
 	}
-	return (i);
+	return (count);
 }
 
 /**
-* print_p - function
-* @p: list of arguments
-*
-* Description: prints percent symbol
-* Return: Will return the amount of characters printed.
+* print_p - Function
+* @p:  Arguments
+* Description: Prints Percent Symbol
+* Return: Characters Printed.
 */
-int print_p(__attribute__((unused))va_list p)
+int print_p(va_list p)
 {
+	(void)p;
 	_putchar('%');
 	return (1);
 }
