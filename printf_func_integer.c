@@ -2,7 +2,7 @@
 
 /**
 * print_i - function
-* @i: integer 
+* @i: integer
 * Description: prints an integer
 * Return: number chars and digits
 */
