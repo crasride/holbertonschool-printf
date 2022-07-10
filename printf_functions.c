@@ -2,7 +2,7 @@
 
 /**
 * print_c - Functions
-* @c: Char 
+* @c: Char
 * Description: Print Char
 * Return: 1
 */
