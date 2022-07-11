@@ -44,6 +44,12 @@ For this project we made our own version of the function printf.
 * Compiler: gcc 4.8.4
 * Style guidelines: Betty style
 
+### How To Install & Compile
+```
+git clone [[https://github.com/william0863/printf.git](https://github.com/crasride/holbertonschool-printf/blob/master/printf.c)](https://github.com/crasride/holbertonschool-printf.git)
+cd printf
+```
+
 
 ### Authors
 William Granger & José Fernandez-Armas
