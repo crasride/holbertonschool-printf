@@ -57,7 +57,7 @@ int main(void)
 	_printf("%s "Hello World");
 	return (0);
 }
-====================================
+---------------------------------
 $ gcc -Wall -Werror -Wextra -pedantic -Wno-format *.c -o print
 $ ./print
 Hello World
