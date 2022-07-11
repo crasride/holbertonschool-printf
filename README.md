@@ -51,6 +51,7 @@ $cd printf
 ```
 Sample main program inside print.c:
 
+```
 int main(void)
 {
 	_printf("%s "Hello World");
@@ -61,7 +62,7 @@ $ gcc -Wall -Werror -Wextra -pedantic -Wno-format *.c -o print
 $ ./print
 Hello World
 $
-
+```
 
 ### Authors
 William Granger & José Fernandez-Armas
