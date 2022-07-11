@@ -2,7 +2,10 @@ C - printf
 ### Introduction
 
 For this project we made our own version of the function printf.
+
 ![68747470733a2f2f692e696d6775722e636f6d2f536a71495573372e706e67](https://user-images.githubusercontent.com/105505927/178279750-67811154-48ec-4467-9dc4-e89813768989.png)
+
+### Examples
 
 ### String
     Input:  _printf("String:[%s]\n", "I am a string !");
@@ -63,6 +66,8 @@ $ ./print
 Hello World
 $
 ```
+### Note
+Our program does not handle buffer handling, flag characters, field width, precision, or length modifiers.
 
 ### Authors
 William Granger & José Fernandez-Armas
