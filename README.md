@@ -49,7 +49,7 @@ For this project we made our own version of the function printf.
 $git clone https://github.com/crasride/holbertonschool-printf.git
 $cd printf
 ```
-Sample main program inside print.c:
+Sample main program inside print.c
 
 ```
 int main(void)
