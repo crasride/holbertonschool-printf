@@ -30,11 +30,9 @@ Specifier | Input example | Output example
 ### Synopsis
 > This repository holds all the code necessary for our custom ```_printf```
 > function to run. Our mini-version currently handles conversion specifiers:
-> ```c```, ```s```, ```%```, ```d```, ```i```, ```b```, ```o``` and does not yet
+> ```c```, ```s```, ```%```, ```d```, ```i``` and does not yet
 > support field width, precision, flag characters, or length modifiers. Unique to our _printf is our ```r```
-> reverse conversion and the ```R``` rot13 conversion. In essence, you can
-> print any character, string, integer, or decimal number, reverse your strings, 
-> transform any number to binary and octal bases, and encrypt your string with rot13 encryption. 
+> print any character, string, integer, or decimal number.
 
 
 ### Files description
