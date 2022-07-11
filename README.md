@@ -30,9 +30,7 @@ Specifier | Input example | Output example
 ### Synopsis
 > This repository holds all the code necessary for our custom ```_printf```
 > function to run. Our mini-version currently handles conversion specifiers:
-> ```c```, ```s```, ```%```, ```d```, ```i``` and does not yet
-> support field width, precision, flag characters, or length modifiers. Unique to our _printf is our ```r```
-> print any character, string, integer, or decimal number.
+> ```c```, ```s```, ```%```, ```d```, ```i``` 
 
 
 ### Files description
@@ -68,8 +66,8 @@ int main(void)
 	return (0);
 }
 ---------------------------------
-$ gcc -Wall -Werror -Wextra -pedantic -Wno-format *.c -o print
-$ ./print
+$ gcc -Wall -Werror -Wextra -pedantic *.c -o hi
+$ ./hi
 Hello World
 $
 ```
