@@ -46,9 +46,21 @@ For this project we made our own version of the function printf.
 
 ### How To Install & Compile
 ```
-git clone https://github.com/crasride/holbertonschool-printf.git
-cd printf
+$git clone https://github.com/crasride/holbertonschool-printf.git
+$cd printf
 ```
+Sample main program inside print.c:
+
+int main(void)
+{
+	_printf("%s "Hello World");
+	return (0);
+}
+====================================
+$ gcc -Wall -Werror -Wextra -pedantic -Wno-format *.c -o print
+$ ./print
+Hello World
+$
 
 
 ### Authors
