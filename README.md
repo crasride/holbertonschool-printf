@@ -46,7 +46,7 @@ For this project we made our own version of the function printf.
 
 ### How To Install & Compile
 ```
-git clone (https://github.com/crasride/holbertonschool-printf.git)
+git clone https://github.com/crasride/holbertonschool-printf.git
 cd printf
 ```
 
