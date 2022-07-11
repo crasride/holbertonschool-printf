@@ -40,8 +40,8 @@ For this project we made our own version of the function printf.
 
 ### Environment
 * Language: C
-* OS: Ubuntu 14.04 LTS
-* Compiler: gcc 4.8.4
+* OS: Ubuntu 20.04 LTS
+* Compiler: gcc 7.3
 * Style guidelines: Betty style
 
 ### How To Install & Compile
