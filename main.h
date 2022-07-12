@@ -18,6 +18,7 @@ typedef struct print
 
 /* Protoytpe the functions */
 
+void main(void);
 int _putchar(char c);
 int _printf(const char *format, ...);
 int print_c(va_list c);
