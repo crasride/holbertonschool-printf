@@ -2,7 +2,7 @@
 
 /**
 * check - Function
-* @format: Format Specifier
+* @format: Format Specifier predefined
 * Description: Checks Valid Format Specifier
 * Return: Pointer Valid or NULL
 */
