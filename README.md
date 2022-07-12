@@ -65,13 +65,13 @@ Sample main program inside print.c
 ```
 int main(void)
 {
-	_printf("%s "Hello World");
+	_printf("hello %s\n", "world", 1, 2, 3, 4);
 	return (0);
 }
 ---------------------------------
 $ gcc -Wall -Werror -Wextra -pedantic *.c -o hi
 $ ./hi
-Hello World
+hello world
 $
 ```
 ### Note
