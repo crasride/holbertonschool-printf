@@ -6,7 +6,7 @@
 * Description: Checks Valid Format Specifier
 * Return: Pointer Valid or NULL
 */
-static int (*check(const char *format))(va_list)
+int (*check(const char *format))(va_list)
 {
 	unsigned int i;
 
